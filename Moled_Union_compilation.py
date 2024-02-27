@@ -295,8 +295,8 @@ unet_like.compile(optimizer='adam', loss=[dice_bce_mc_loss], metrics=[dice_mc_me
 # Train neural network and save result
 history_dice = unet_like.fit(train_dataset, validation_data=test_dataset, epochs=25, initial_epoch=0)
 
-unet_like.save_weights('D:\IT\Python\Ship_Detection\Airbus_Ship_Detection_Kaggle\Resource\model\\')
+unet_like.save_weights('D:\IT\Python\Ship_Detection\Airbus_Ship_Detection_Kaggle\Resource\model')
 
 # Load sempl model
-unet_like.load_weights('D:\IT\Python\Ship_Detection\Airbus_Ship_Detection_Kaggle\Resource\model\\')
+unet_like.load_weights('D:\IT\Python\Ship_Detection\Airbus_Ship_Detection_Kaggle\Resource\model')
 
