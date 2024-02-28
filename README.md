@@ -4,7 +4,7 @@ Detection Ships on satellite images with Neural Network, Keras, Unet Architectur
 ---
 My LinkedIn [LinkedIn](https://www.linkedin.com/in/serhii-spitsyn-ba98b82a9/)
 
-![Ship Detection](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
+![Ship Detection](https://github.com/ShamansIT/Airbus_Ship_Detection_Kaggle/blob/main/Resource/ship_detect.png)
 
 ## Overview
 This Ship Detection System is designed to identify and locate ships on satellite images rapidly. Utilizing advanced machine learning algorithms, this program aims to tackle the challenging task of distinguishing ships from various natural and artificial objects within the complex visual context of satellite imagery. The primary application of this system spans across maritime navigation, environmental monitoring, maritime security, and resource exploration.
